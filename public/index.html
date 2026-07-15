@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang='en'>
+
+<head>
+    <meta charset='utf-8'>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <title>Furniture Order Manager</title>
+    <link rel='stylesheet' href='main.css'>
+</head>
+
+<body>
+    <center>
+        <h1>Furniture Order Manager</h1><br><br>
+
+        <h2>Order Furniture</h2>
+        <form id="orderForm">
+            <label>Item:</label>
+            <select name="item">
+                <option value="Chair">Chair</option>
+                <option value="Table">Table</option>
+                <option value="Sofa">Sofa</option>
+                <optgroup label="Beds">
+                    <option value="Single Bed">Single Bed</option>
+                    <option value="Double Bed">Double Bed</option>
+                </optgroup>
+                <option value="Cabinet">Cabinet</option>
+                <option value="Bookshelf">Bookshelf</option>
+                <option value="Desk">Desk</option>
+                <option value="Dresser">Dresser</option>
+                <option value="Nightstand">Nightstand</option>
+                <option value="Wardrobe">Wardrobe</option>
+                <option value="Coffee Table">Coffee Table</option>
+                <optgroup label="Outdoor Furnitures">
+                    <option value="Patio Chair">Patio Chair</option>
+                    <option value="Patio Table">Patio Table</option>
+                    <option value="Outdoor Sofa">Outdoor Sofa</option>
+                </optgroup>
+            </select><br><br>
+
+            <label>Quantity:</label>
+            <input type="number" name="quantity" min="1" required><br><br>
+
+            <button type="submit">Place Order</button>
+        </form>
+
+        <p id="response"></p>
+
+        <script src="script.js"></script>
+    </center>
+</body>
+
+</html>

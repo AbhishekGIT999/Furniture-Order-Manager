@@ -1,0 +1,38 @@
+form {
+    /* subtler "white gold" gradient with increased transparency for a clearer look */
+    background: linear-gradient(135deg, rgba(255, 255, 255, 0.12), rgba(255, 245, 220, 0.06));
+    /* reduce blur so the form appears clearer while keeping some frosted effect */
+    backdrop-filter: blur(3px);
+    width: 40%;
+    padding: 20px;
+    margin: 20px auto;
+    /* top/bottom 20px, left/right auto centers the form horizontally */
+    border-radius: 10px;
+}
+
+body {
+    background-image: url("C:/Users/ADMIN/OneDrive/Pictures/image_2.jpg");
+    background-repeat: no-repeat;
+    /* Prevents the background image from repeating */
+    background-position: center;
+    /* Centers the background image in the viewport */
+    background-attachment: fixed;
+    background-size: cover;
+    background-clip: border-box;
+    /* Ensures the background image covers the entire viewport */
+}
+
+p {
+    color: crimson;
+    font-size: 21px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    /* Use standard and vendor-prefixed properties for font rendering */
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+
+    background-color: rgb(47, 79, 75);
+    width: 400px;
+
+}
